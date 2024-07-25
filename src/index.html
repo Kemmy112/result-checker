@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAT Result Checker 2023</title>
+    <link rel="stylesheet" href="./my.css" />
+  </head>
+  <body>
+    <div class="text">
+      <h1>Scholars' Achievement Test Result Checker 2023</h1>
+    </div>
+    <div class="container">
+      <div class="left-wing">
+        <h2>Candidate Result</h2>
+        <div class="p-g-t">
+          <h4>Total: <span class="tot"></span></h4>
+          <h4>Remark: <span class="pnt"></span></h4>
+          <h4>Average: <span class="avg"></span></h4>
+        </div>
+      </div>
+      <div class="wrapper">
+        <div class="right-wing">
+          <input type="number" id="mth" placeholder="Mathematics"/>
+          <input type="number" id="eg" placeholder="English Language"/>
+          <input type="number" id="p" placeholder="Physics"/>
+          <input type="number" id="ch" placeholder="Chemistry"/>
+          <input type="number" id="bl" placeholder="Biology"/>
+          <div class="but-row">
+          <button type="button" id="show" onclick="willCompute()">Show Result</button>
+          <button type="button" id="clr" onclick="clearFields()">Refresh</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="./topic.js"></script>
+  </body>
+</html>
