@@ -3,16 +3,15 @@
 }
 
 body {
- font-family:  sans-serif;
+  font-family: sans-serif;
   width: 100%;
   overflow: hidden;
 }
 
-
-.text{
+.text {
   text-align: center;
 }
-.container{
+.container {
   /* outline: 2px solid red; */
   width: 40%;
   margin-top: 3%;
@@ -25,15 +24,14 @@ body {
   overflow: hidden;
 }
 
-.container .left-wing{
-background-color: blue;
-width: 35%;
-color: #fff;
-padding: 10px;
+.container .left-wing {
+  background-color: blue;
+  width: 35%;
+  color: #fff;
+  padding: 10px;
 }
 
-
-.container .right-wing{
+.container .right-wing {
   background-color: #fff;
   padding: 10px;
   width: 100%;
@@ -44,20 +42,19 @@ padding: 10px;
   /* outline: 2px solid red; */
 }
 
-.container .right-wing input{
+.container .right-wing input {
   width: 370px;
   border-radius: 20px;
   padding: 10px;
 }
 
-
-.but-row{
+.but-row {
   display: flex;
   /* outline: 2px solid red; */
   justify-content: space-evenly;
 }
 
-.container .right-wing #show{
+.container .right-wing #show {
   border: none;
   background-color: blue;
   color: #fff;
@@ -69,7 +66,7 @@ padding: 10px;
   /* margin-left: 29%; */
 }
 
-.container .right-wing #clr{
+.container .right-wing #clr {
   border: none;
   background-color: blue;
   color: #fff;
@@ -81,29 +78,28 @@ padding: 10px;
   /* margin-left: 29%; */
 }
 
-@media only screen and (min-width: 350px) and (max-width:450px) {
+@media only screen and (min-width: 350px) and (max-width: 450px) {
   * {
     box-sizing: border-box;
   }
-  
+
   body {
-   font-family:  sans-serif;
+    font-family: sans-serif;
     width: 100%;
-    overflow: hidden;
+    /* overflow: hidden; */
   }
-  
-  
-  .text{
+
+  .text {
     text-align: left;
     overflow: hidden;
+    /* display: none; */
   }
 
-
-  .container{
+  .container {
     /* outline: 2px solid red; */
-    width: 80%;
+    width: 90%;
     margin-top: 3%;
-    margin-left: 6%;
+    margin-left: 3%;
     height: 450px;
     display: flex;
     /* justify-content: space-between; */
@@ -111,16 +107,15 @@ padding: 10px;
     box-shadow: 2px 0px 2px 2px;
     overflow: hidden;
   }
-  
-  .container .left-wing{
-  background-color: blue;
-  width: 180px;
-  color: #fff;
-  padding: 10px;
+
+  .container .left-wing {
+    background-color: blue;
+    width: 180px;
+    color: #fff;
+    padding: 10px;
   }
-  
-  
-  .container .right-wing{
+
+  .container .right-wing {
     background-color: #fff;
     padding: 10px;
     width: 100%;
@@ -130,23 +125,22 @@ padding: 10px;
     row-gap: 2rem;
     /* outline: 2px solid red; */
   }
-  
-  .container .right-wing input{
+
+  .container .right-wing input {
     width: 150px;
     border-radius: 20px;
     padding: 10px;
   }
-  
-  
-  .but-row{
+
+  .but-row {
     display: flex;
     /* outline: 2px solid red; */
     /* justify-content: space-evenly; */
     gap: 12px;
     margin-left: -5px;
   }
-  
-  .container .right-wing #show{
+
+  .container .right-wing #show {
     border: none;
     background-color: blue;
     color: #fff;
@@ -157,8 +151,8 @@ padding: 10px;
     width: 80px;
     /* margin-left: 29%; */
   }
-  
-  .container .right-wing #clr{
+
+  .container .right-wing #clr {
     border: none;
     background-color: blue;
     color: #fff;
@@ -169,5 +163,4 @@ padding: 10px;
     width: 60px;
     /* margin-left: 29%; */
   }
-  
 }
